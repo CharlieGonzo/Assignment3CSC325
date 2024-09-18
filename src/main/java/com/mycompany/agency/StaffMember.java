@@ -1,9 +1,10 @@
 package com.mycompany.agency;
 
 
+import java.sql.SQLOutput;
 
 // TODO 1: Make this class work and public
- class StaffMember
+public abstract class StaffMember
 {
     protected String name;
     protected String address;
@@ -25,6 +26,7 @@ package com.mycompany.agency;
     //-----------------------------------------------------------------
     public String toString()
     {
+        return "Name: " + name + "\nAddress: " + address + "\nPhone: " + phone;
 
     }
 
