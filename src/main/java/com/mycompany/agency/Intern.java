@@ -6,7 +6,6 @@ package com.mycompany.agency;
 
 
 public class Intern extends StaffMember
-=
 {
     //-----------------------------------------------------------------
     //  TODO 2: Constructor: Sets up this intern using the specified
@@ -14,9 +13,7 @@ public class Intern extends StaffMember
     //-----------------------------------------------------------------
     public Intern(String eName, String eAddress, String ePhone)
     {
-
-        
-
+        super(eName, eAddress, ePhone);
     }
 
     //-----------------------------------------------------------------
