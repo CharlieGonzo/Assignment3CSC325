@@ -15,5 +15,6 @@ Executive, StaffEmployee, Intern, etc.:
 These are subclasses of StaffMember representing different employee types. Each class has its own implementation of the pay() method. For example, interns receive no pay, while executives get a salary with an additional bonus.
 
 How It Works
+
 The Staff class manages an array of StaffMember objects, filled with instances of different employee subclasses. The payday() method iterates over the array, printing each employee's details and calculating their pay. This is done using polymorphism, as each employee type has its own pay() method.
 
